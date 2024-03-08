@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes e tente abrir a pagina em vaiors dispositivos ou abas de tamanho diferente</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/medio.png" type="image/png">
+        <img src="Imagens/grande.png" alt="imagem flexivel">
+    </picture>
+    <h1>Repodduzindo audio</h1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/AUTOMOTIVO MORRO DO SAPO - ELA DEIXA DE SER SANTA -  (DJ LUKINHAS 011).mp3"  controls></audio>
+    <audio preload="none">
+        <source src="midia/AUTOMOTIVO MORRO DO SAPO - ELA DEIXA DE SER SANTA -  (DJ LUKINHAS 011).mp3" type="audio/mpeg">
+    </audio>
+    <p><a href="midia/AUTOMOTIVO MORRO DO SAPO - ELA DEIXA DE SER SANTA -  (DJ LUKINHAS 011).mp3" download>musica</a></p>
+</body>
+</html>
